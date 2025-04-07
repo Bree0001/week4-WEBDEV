@@ -176,6 +176,21 @@ hr{
 
 .mobile-navbar{
   display: none;
+  margin: 2rem 0;
+}
+
+.logo{
+
+}
+
+.desktop-navbar{
+  display: block;
+}
+
+.desktop-navbar a{
+  text-decoration: none;
+  cursor: pointer;
+
 }
 
 }
