@@ -19,6 +19,7 @@ body {
   width: 100%;
   margin: 4%;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 nav{
@@ -159,14 +160,14 @@ hr{
 
 .last-part-info h3{
   font-family: var(--main-font);
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: var(--blue-color);
 }
 
 .last-part-info p{
   font-family: var(--main-font);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -174,13 +175,22 @@ hr{
 
 @media screen and (min-width: 768px) {
 
+ body{
+  width: 84%;
+  margin: 7%;
+ }
+
 .mobile-navbar{
   display: none;
   margin: 2rem 0;
 }
 
-.logo{
+nav{
+  margin-bottom: 2rem;
+}
 
+.logo{
+  margin-top: 0;
 }
 
 .desktop-navbar{
@@ -190,7 +200,54 @@ hr{
 .desktop-navbar a{
   text-decoration: none;
   cursor: pointer;
+  color: var(--blue-color);
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+}
 
+.first-half{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-section img{
+  width: 95%;
+  height: 35%;
+}
+
+.hero-section-infor{
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+}
+
+.div-h1{
+  width: 100%;
+}
+
+.hero-section-infor h1{
+  margin: 0;
+}
+
+.hero-h1{
+  width: 90%;
+}
+
+.side-bar{
+  width: 33%;
+  height: 50%;
+}
+
+.last-part{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.hero-section-infor p{
+  margin-top: 0;
 }
 
 }
