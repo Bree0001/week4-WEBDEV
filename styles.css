@@ -18,6 +18,7 @@ font-size: 62.5%;
 body {
   width: 100%;
   margin: 4%;
+  overflow-x: hidden;
 }
 
 nav{
@@ -146,7 +147,6 @@ hr{
 
 .last-part-info{
   margin-left: 5%;
-  padding: 1rem;
 }
 
 .last-part-info h2{
