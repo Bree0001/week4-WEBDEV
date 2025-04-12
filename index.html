@@ -4,16 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+<link rel="stylesheet" href="styles.css">
   <title>Bree's News homepage</title>
 </head>
 <body>
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+<header>
+  <nav>
+  <img class="logo" src="assets/images/logo.svg" alt="logo">
+  <div class="mobile-navbar">
+    <div class="mobile-links"></div>
+    <div class="mobile-links"></div>
+    <div class="mobile-links"></div>
   </div>
+  <div class="desktop-navbar">
+    <a href="">Home</a>
+    <a href="">New</a>
+    <a href="">Popular</a>
+    <a href="">Trending</a>
+    <a href="">Categories</a>
+  </div>
+</nav>
+<main>
+<div class="first-half">
+  <div class="hero-section">
+    <picture>
+      <source media="(max-width: 767px)" srcset="assets/images/image-web-3-mobile.jpg">
+      <source media="(min-width: 768px) and (max-width: 1024)" srcset="assets/images/image-web-3-desktop.jpg">
+      <source media="(min-width: 1025px) and (max-width: 1280px)" srcset="assets/images/image-web-3-desktop.jpg">
+    <img src="assets/images/image-web-3-mobile.jpg" alt="A picture of the hero section">
+    </picture>
+    <div class="hero-section-infor">
+      <div class="div-h1">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="div-p">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fullfilling its promise?</p>
+        <button>READ MORE</button>
+      </div>
+      </div>
+  </div>
+<div class="side-bar">
+  <h2>New</h2>
+  <h3>Hydrogen Vs Electric Cars</h3>
+  <p>Will hydrogen fueled cars ever catch up to EVs?</p>
+  <hr>
+  <h3>The Downsides of AI Artistry</h3>
+  <p>What are the possibke adverse effects of on-demand AI image generation</p>
+  <hr>
+  <h3>Is VC funding drying up?</h3>
+  <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+</div>
+</div>
+<div class="last-part">
+  <div class="img-last-part">
+    <img src="assets/images/image-retro-pcs.jpg" alt="a picture of retro">
+    <div class="last-part-info">
+    <h2>01</h2>
+    <h3>Receiving Retro PCs</h3>
+    <p>What happens when old PCs are given modern upgrades?</p>
+    </div>
+  </div>
+  <div class="img-last-part">
+    <img src="assets/images/image-top-laptops.jpg" alt="a picture of laptop keyboard">
+    <div class="last-part-info">
+      <h2>02</h2>
+      <h3>Top 10 Laptops of 2022</h3>
+      <p>Our top picks for various needs and budgets</p>
+    </div>
+  </div>
+  <div class="img-last-part">
+    <img src="assets/images/image-gaming-growth.jpg" alt="a picture of playstation pads">
+    <div class="last-part-info">
+    <h2>03</h2>
+      <h3>The Growth of Gaming</h3>
+    <p>How the pandemic has sparked fresh opportunites.</p>
+    </div>
+  </div>
+</div>
+</main>
+</header>
 </body>
 </html>
