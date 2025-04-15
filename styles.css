@@ -1,8 +1,11 @@
 :root{
   --main-font: "inter", sans-serif;
   --main-font-color: black;
-  --blue-color: #1c1f33;
-  --white-color: white;
+  --blue-color: hsl(240, 100%, 5%);
+  --white-color: hsl(36, 100%, 99%);
+  --soft-orange:hsl(35, 77%, 62%);
+  --grey: hsl(236, 13%, 42%);
+  --soft-red: #f15e50;
 }
 
 *,
@@ -88,7 +91,7 @@ nav{
 button{
   width: 35%;
   padding: 1.5rem;
-  background-color: orangered;
+  background-color: var(--soft-red);
   font-family: var(--main-font);
   color: var(--blue-color);
   font-weight: 700;
@@ -107,7 +110,7 @@ button{
   font-family: var(--main-font);
   font-size: 3rem;
   font-weight: 700;
-  color: yellow;
+  color: var(--soft-orange);
   margin-top: 1rem;
 }
 
@@ -154,7 +157,7 @@ hr{
   font-family: var(--main-font);
   font-size: 3rem;
   font-weight: 700;
-  color: orange;
+  color: var(--soft-red);
   margin-top: 0;
 }
 
@@ -200,7 +203,7 @@ nav{
 .desktop-navbar a{
   text-decoration: none;
   cursor: pointer;
-  color: var(--blue-color);
+  color: var(--grey);
   margin-left: 2rem;
   font-size: 1.4rem;
   font-family: var(--main-font);
