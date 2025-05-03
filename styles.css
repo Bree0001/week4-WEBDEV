@@ -97,6 +97,13 @@ button{
   margin-bottom: 3rem;
 }
 
+button:hover{
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .side-bar{
   width: 90%;
   background-color: var(--blue-color);
@@ -171,6 +178,7 @@ hr{
   font-weight: 400;
   margin-bottom: 0;
 }
+
 /*Desktop Version*/
 
 @media screen and (min-width: 768px) {
@@ -178,6 +186,8 @@ hr{
  body{
   width: 84%;
   margin: 7%;
+  max-height: 100vh;
+
  }
 
 .mobile-navbar{
@@ -195,6 +205,19 @@ nav{
 
 .desktop-navbar{
   display: block;
+}
+
+.desktop-navbar a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--blue-color);
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+  background-color: orangered;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
 }
 
 .desktop-navbar a{
@@ -233,6 +256,10 @@ nav{
 
 .hero-h1{
   width: 90%;
+}
+
+button{
+  margin-bottom: none;
 }
 
 .side-bar{
